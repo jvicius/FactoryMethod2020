@@ -41,6 +41,8 @@ namespace FactoryMethodDemo
                     break;
             }
 
+            //46465465
+
             var figuraconstruida = figura.CrearFiguraGeometrica();
             Console.WriteLine($"Perimetro: {figuraconstruida.CalcularPerimetro()}");
             Console.WriteLine($"Area: {figuraconstruida.CalcularArea()}");
